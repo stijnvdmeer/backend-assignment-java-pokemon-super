@@ -44,7 +44,7 @@ public class Pokemon {
     }
 
     public void healPokemon() {
-        System.out.println("Tun Tun Tun Tu Du Dun, Your pokemon has been healed have a nice day.");
+        System.out.println("Tun Tun Tun Tu Du Dun, Your " + this.name + " has been healed have a nice day.");
     }
     public void speak() {
         System.out.println(this.name);
