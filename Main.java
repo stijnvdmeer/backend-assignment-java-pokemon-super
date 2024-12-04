@@ -5,6 +5,7 @@ public class Main {
         WaterPokemon squirtle = new WaterPokemon("squirtle", baseStats);
         FirePokemon charmander = new FirePokemon("charmander", baseStats);
         GrassPokemon bulbasaur = new GrassPokemon("bulbasaur", baseStats);
+        ElectricPokemon pikachu = new ElectricPokemon("pikachu", baseStats);
 
         squirtle.speak();
         squirtle.healPokemon();
@@ -27,5 +28,11 @@ public class Main {
         bulbasaur.levelUp();
         bulbasaur.levelUp();
 
+        pikachu.speak();
+        pikachu.healPokemon();
+        pikachu.thunderShock();
+        pikachu.ironTail();
+        pikachu.levelUp();
+        pikachu.levelUp();
     }
 }
