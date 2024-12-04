@@ -1,9 +1,10 @@
 public class Main {
     public static void main(String[] args) {
 
-        int[] basestats = {10, 10, 10 , 10, 10};
-        WaterPokemon squirtle = new WaterPokemon("squirtle", basestats);
-        FirePokemon charmander = new FirePokemon("charmander", basestats);
+        int[] baseStats = {10, 10, 10 , 10, 10};
+        WaterPokemon squirtle = new WaterPokemon("squirtle", baseStats);
+        FirePokemon charmander = new FirePokemon("charmander", baseStats);
+        GrassPokemon bulbasaur = new GrassPokemon("bulbasaur", baseStats);
 
         squirtle.speak();
         squirtle.healPokemon();
@@ -18,6 +19,13 @@ public class Main {
         charmander.ember();
         charmander.levelUp();
         charmander.levelUp();
+
+        bulbasaur.speak();
+        bulbasaur.healPokemon();
+        bulbasaur.vineWhip();
+        bulbasaur.tackle();
+        bulbasaur.levelUp();
+        bulbasaur.levelUp();
 
     }
 }
